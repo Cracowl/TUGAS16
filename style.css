@@ -1,4 +1,4 @@
-/* Reset dasar */
+
 body {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -9,7 +9,6 @@ body {
     margin: 0;
 }
 
-/* Kontainer login */
 .login-container {
     background: white;
     padding: 30px;
@@ -20,7 +19,6 @@ body {
     animation: fadeIn 0.8s ease-in-out;
 }
 
-/* Animasi masuk */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -32,7 +30,6 @@ body {
     }
 }
 
-/* Judul */
 h2 {
     margin: 0;
     font-size: 24px;
@@ -45,7 +42,6 @@ p {
     margin-bottom: 20px;
 }
 
-/* Input group */
 .input-group {
     position: relative;
     margin-bottom: 15px;
@@ -74,7 +70,6 @@ p {
     color: #aaa;
 }
 
-/* Tombol */
 button {
     background: #667eea;
     color: white;
@@ -91,7 +86,6 @@ button:hover {
     background: #5a67d8;
 }
 
-/* Pesan error */
 .error-style {
     color: #d9534f;
     font-weight: bold;
@@ -101,12 +95,10 @@ button:hover {
     margin-bottom: 15px;
 }
 
-/* Sembunyikan elemen */
 .hidden {
     display: none;
 }
 
-/* Teks daftar */
 .register-text {
     margin-top: 10px;
     font-size: 14px;
